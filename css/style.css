@@ -115,13 +115,14 @@ top: 0; */
 /* height: calc(100vh - 83px); */
 
 /* background-blend-mode: multiply; */
-
+margin:0 auto;
 }
 
 .cover {
     max-width:1440px;
     width: 1250px;
     position:absolute;
+    /* margin: 0 auto; */
     margin-top: 194px;
     margin-left: 134px; 
     box-sizing: border-box;
@@ -193,10 +194,14 @@ color: var(--titlecolor);
 /* далее span projects */
 .projects {
 background-color: var(--bgcolor);
+height: 1074px;
+
 }
 .progects-container {
     margin: 0 auto;
     width: 1171px;
+    
+    
 }
 .sliderimg{
     width: 679px;
@@ -204,14 +209,186 @@ background-color: var(--bgcolor);
 }
 .slider {
     display: flex;
+    justify-content: space-between;
 }
 .descripton_projects{
-    display: inline-block;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    /* grid-column: 2/2; */
 }
+
 .workdescript{
-width: 442px;
+    width: 442px;
+
+    font-family: 'NunitoSans-Italic', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: var(--fontcolor);
 }
 .projnav {
 font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
-color: rgba(255, 255, 255, 0.3);
+
 }
+
+.menu-pr {
+    /* list-style: none; */
+    display:flex;
+    justify-content: space-between;
+}
+.item-pr {
+margin-right: 47px;
+}
+.a-pr {
+    text-decoration: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+}
+.a-pr:hover {
+    text-decoration: underline;
+    outline: none;
+    color: var(--titlecolor);
+}
+.header-container-pr {
+    display: flex;
+    /* margin: 0 90px;
+    align-content: center; */
+    justify-content: flex-end;
+    padding: 107px 0 53px 0;
+    /* align-items: center;
+    /* font-size: 0.78rem; */
+    /*height: 83px;
+    max-width: 1440px;
+    flex-wrap: wrap;   */
+}
+.h2 {
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    color: var(--titlecolor);
+    margin-top: 0px;
+    /* width: 253px; */
+}
+.kontainer {
+    width: 253px;
+}
+.h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+.workdescript-ltl {
+    font-size: 13px;
+line-height: 21px;
+}
+.round {
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+.round:hover {
+    background-color: white;
+    
+}
+.round-active {
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    
+    border-radius: 30px;
+    
+}
+.slider-navigation {
+    display: flex;
+    width: 160px;
+    justify-content: space-between; 
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.leftinfo {
+    position: relative;
+}
+.leftinfo > div:last-child {
+    position: absolute;
+    bottom: 0;
+
+}
+
+/* далее секция online control */
+
+/* .measurement-container{
+   margin: 0 auto;
+   
+} */
+.h3-mesh {
+    font-family: 'Yeseva One';
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--fontcolor);
+    margin: 30px auto;
+}
+.line {
+    width: 32px;
+    height: 1.54px;
+    background-color: #E3B873;
+    margin: 0 10px; 
+}
+.camera-icon {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+    
+}
+.iframe-container{
+    /* position: relative; */
+    margin: 0 auto;
+    height: 434px;
+}
+.iframe-img-container {
+   
+}
+.iframe-img {
+   
+}
+.iframe {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    
+    background-image: url('../images/image 6.jpg');
+    
+    width: 817px;
+    height: 434px;
+    
+}
+.line55 {
+    width: 55px;
+    height: 1.54px;
+    background-color: #E3B873; 
+}
+.text2 {
+    /* color: var(--fontcolor); */
+    /* font-size: 1.57rem; */
+    font-size: 18px;
+    width: 681px;
+    line-height: 36.83px;
+    text-align: center;
+}
+
+.measurement-container {
+    width: 1140px;
+    margin: -226px auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+
+} 
