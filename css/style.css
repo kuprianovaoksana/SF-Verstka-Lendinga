@@ -17,16 +17,17 @@
 
 }
 
-* {
+/* * {
 list-style: none;
 
-}
+} */
 
 body {
 margin: 0;
 padding: 0;
 font-family: 'NunitoSans-Regular', Arial, sans-serif;
 font-size: 14px;
+list-style: none;
 
 }
 .header {
@@ -326,8 +327,11 @@ line-height: 21px;
    margin: 0 auto;
    
 } */
+.measurement{
+height: 1054px;
+}
 .h3-mesh {
-    font-family: 'Yeseva One';
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;;
     font-size: 20px;
     line-height: 28px;
     color: var(--fontcolor);
@@ -353,10 +357,12 @@ line-height: 21px;
     height: 434px;
 }
 .iframe-img-container {
-   
+   position: relative;
 }
 .iframe-img {
-   
+    position: absolute;
+    top: 150px;
+    right: 350px;
 }
 .iframe {
     background-color: rgba(0, 0, 0, 0.7);
@@ -369,6 +375,7 @@ line-height: 21px;
     
 }
 .line55 {
+    margin-top: 65px;
     width: 55px;
     height: 1.54px;
     background-color: #E3B873; 
@@ -380,6 +387,7 @@ line-height: 21px;
     width: 681px;
     line-height: 36.83px;
     text-align: center;
+    margin-top: 35px;
 }
 
 .measurement-container {
@@ -391,4 +399,121 @@ line-height: 21px;
     align-items: center;
     
 
-} 
+}
+
+.submit {
+    width: 200px;
+    height: 51px;
+    font-size: 13px;
+}
+.checkboxName {
+font-size: 13px;
+color:rgba(0, 0, 0, 0.5);
+margin: 0;
+}
+.label {
+    cursor: pointer;
+}
+.checkbox{
+    display: none;
+}
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+}
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .fake::before{
+    opacity: 1;
+}
+.checkbox-text {
+    color:#131313;
+}
+
+.input-form {
+    width: 231px;
+    border :none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+
+.form {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 770px;
+}
+
+.first-checkbox {
+   
+    margin-top: 30px;
+}
+
+/* далее types of repair */
+
+.h3-cont {
+    color: var(--bgcolor);
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 147px;
+   
+}
+
+.repair {
+    height: 1054px;
+}
+
+.repair-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repair-type1 {
+    background-image: url('../images/redecorating.jpg');
+}
+.repair-type2 {
+    background-image: url('../images/overhaul.jpg');
+}
+.repair-type3 {
+    background-image: url('../images/desig-repair.jpg');
+}
+.redecorating-container {
+    display: flex;
+}
+.hammer-icon{
+    margin: 0;
+}
+.redecorating {
+    background-color: #fff;
+    height: 300px;
+}
+.h3-redecorating {
+    color: var(--bgcolor);
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.worklist {
+    color: #959595;
+    font-family: 'NunitoSans-Regular', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    list-style-type: disc;
+}
+
+.button-price{
+    width: 228px;
+    height: 54px;
+    font-size: 18px;
+    padding: 0;
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+}
