@@ -479,22 +479,41 @@ margin: 0;
 
 .repair-type1 {
     background-image: url('../images/redecorating.jpg');
+    background-repeat: no-repeat;
+    height: 392px;
+    width: 421px;
+
 }
 .repair-type2 {
     background-image: url('../images/overhaul.jpg');
+    background-repeat: no-repeat;
+    height: 392px;
+    width: 421px;
+
 }
 .repair-type3 {
     background-image: url('../images/desig-repair.jpg');
+    background-repeat: no-repeat;
+    height: 392px;
+    width: 421px;
+
 }
 .redecorating-container {
     display: flex;
+    justify-content: space-between;
+    width: 1291px;
 }
 .hammer-icon{
     margin: 0;
 }
 .redecorating {
     background-color: #fff;
-    height: 300px;
+    height: 330px;
+    width: 286px;
+    margin-top: 294px;
+    margin-left: 34px;
+    padding-top: 25px;
+    padding-left: 34px;
 }
 .h3-redecorating {
     color: var(--bgcolor);
