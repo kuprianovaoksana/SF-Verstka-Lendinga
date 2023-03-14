@@ -651,6 +651,7 @@ margin: 0;
 .team-p{
     color:#E3B873;
     margin-top: 50px;
+    font-size: 20px;
 }
 
 .team-ul{
@@ -659,21 +660,57 @@ margin: 0;
     margin-left: -40px;
     margin-top: 25px;
     line-height: 40px;
+    font-size: 20px;
     
 }
 
 .gallery{
     display:flex;
-    margin-top: -100px;
+    /* margin-top: -130px; */
     margin: 43px;
+    
 }
 
 .left-pic{
-    margin-top: -40px;
+    margin-top: -120px;
+    width: 354px;
+    padding: 20px;
 }
 
 .right-pic{
-    margin-top: -113px;
+    margin-top: -197px;
+    width: 354px;
+    padding: 20px;
 }
 
+.gallery-pic{
+    margin-bottom: 39px;
+}
+
+.gallery-left{
+    margin: 30px;
+    margin-top: 137px;
+    padding: 50px;
+}
+
+.reviews-container{
+   /* margin-top: 900px; */
+   margin: 900px auto;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+}
+
+.people-container{
+    display:flex;
+}
+
+.people-card{
+    width: 376px;
+}
+
+.card-title{
+    display: flex;
+}
 
