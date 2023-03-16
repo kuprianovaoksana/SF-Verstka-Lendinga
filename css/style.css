@@ -13,14 +13,7 @@
 
 }
 
-@media screen and (max-width: 758px){
-
-}
-
-/* * {
-list-style: none;
-
-} */
+/* ==================================================================================dekstop================ */
 
 body {
 margin: 0;
@@ -168,6 +161,7 @@ margin:0 auto;
     
 }
 
+
 .button_apply:hover {
    
     background-color: #E3B873;
@@ -187,6 +181,14 @@ margin:0 auto;
     width:207px;
     height: 51px;
       
+}
+
+.button-txt-mob{
+    display: none;
+}
+
+.button-txt{
+    display: block;
 }
 .title_yellow {
 color: var(--titlecolor);
@@ -312,6 +314,9 @@ line-height: 21px;
     margin-bottom: 0px;
     cursor: pointer;
 }
+.slider-mobile{
+    display:none;
+}
 .leftinfo {
     position: relative;
 }
@@ -389,6 +394,8 @@ height: 1054px;
     line-height: 36.83px;
     text-align: center;
     margin-top: 35px;
+    /* font-family: 'NunitoSans-Regular', Arial, sans-serif; */
+
 }
 
 .measurement-container {
@@ -578,6 +585,7 @@ margin: 0;
     font-size: 18px;
     width: 408px;
     text-align: center;
+    line-height: 26px;
 }
 
 .input-form-black{
@@ -586,6 +594,7 @@ margin: 0;
     width: 408px;
     border :none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 5px;
    
     
 }
@@ -620,7 +629,7 @@ margin: 0;
     margin-top: 30px;
 }
 
-.input-form-black::placeholder {
+.input-form-black::placeholder, .input-form-bottom::placeholder {
     color: rgb(255, 255, 255);
 }
 
@@ -695,7 +704,7 @@ margin: 0;
 
 .reviews-container{
    /* margin-top: 900px; */
-   margin: 900px auto;
+   margin: 700px auto 0;
    display: flex;
    flex-direction: column;
    align-content: center;
@@ -704,6 +713,10 @@ margin: 0;
 
 .people-container{
     display:flex;
+    margin-top: 63px;
+    width: 1291px;
+    justify-content: space-between;
+
 }
 
 .people-card{
@@ -712,5 +725,194 @@ margin: 0;
 
 .card-title{
     display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
+.card-title p {
+    color:#181818;
+    font-family: 'YesevaOne-Regular', 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 23px;
+
+}
+
+.card-title img {
+    margin-right: 20px;
+}
+
+.user-text{
+    width: 324px;
+    color: rgba(149, 149, 149, 1);
+    font-family: 'NunitoSans-Regular', Arial, sans-serif;
+    line-height: 23px;
+    margin-bottom: 63px;
+
+}
+
+.button-users{
+    width: 294px;
+    height: 54px;
+    padding: 0;
+}
+
+.bottom-form{
+    width: 883px;
+    height: 445px;
+    margin-top: 130px;
+    background-color:#131313;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.user-quest{
+    color: #FFFFFF;
+    /* margin-top: 34px; */
+    margin: 34px auto;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.form-content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.input-form-bottom{
+    background-color: #131313;
+    color:#FFFFFF;
+    width: 231;
+    border :none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 5px;
+   
+    
+}
+
+.change-width{
+    width: 516px;
+}
+
+.check-bottom{
+    margin: 30px auto;
+    margin-left: 100px;
+}
+
+.bottom-but{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.contacts-container{
+    
+    margin: 150px auto 0;
+    padding-top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 700px; */
+    width: 1440px; 
+    /* height: 953px; */
+    /* display: flex; */
+    background-image: url('../images/contacts.jpg');
+
+    
+}
+
+.cont-logos {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px;
+    
+}
+
+.footer-h3{
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 1.8;
+}
+
+.logos{
+    margin: 10px;
+}
+
+/* ==================================================================================mobile================= */
+@media screen and (max-width: 758px){
+    .nav {
+        display: none;
+    }
+
+    header button{
+        display: none;
+    }
+
+    header span {
+        color:white;
+    }
+
+    .cover {
+        /* max-width:768px; */
+        width: 600px;
+        margin: 40px;
+        padding: 85px 18px;
+    }
+    .title {
+        width: 339px;
+        font-size: 23px;
+    
+    }
+
+    .text{
+        font-size: 14px;
+        font-family: 'NunitoSans-Regular', Arial, sans-serif;
+        width: 339px;
+
+    }
+
+    .button_apply, .button_apply:hover{
+        width: 339px;
+        margin-bottom: 30px;
+    }
+
+    .button-txt-mob{
+        display: block;
+    }
+
+    .button-txt{
+        display: none;
+    }
+
+    .presentation {
+        width: 768px;
+        height: 676px;
+        background-size: auto, auto;
+        background-position-x: -300px;
+        /* background-position-y: 20px; */
+        /* background-position-x: -300px;
+        background-position-y: 20px; */
+
+        /* background-size: unset; */
+    }
+/* ===========================================================completed projects */
+    .slider-mobile{
+        display: block;
+    }
+
+    .rightinfo{
+        display:none;
+    }
+
+    .header-container-pr{
+        display:none;
+
+    }
+
+    .footer{
+        display:none;
+
+    }
+}
