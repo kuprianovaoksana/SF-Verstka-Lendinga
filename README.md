@@ -1,3 +1,3 @@
-Готовый макет можно посмотреть по этой ссылке:
+#Верстка макета
 
-https://kuprianovaoksana.github.io/SF-Verstka-Lendinga/
+Демо => https://kuprianovaoksana.github.io/SF-Verstka-Lendinga/
